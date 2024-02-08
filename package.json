@@ -1,0 +1,36 @@
+{
+  "name": "npo_chat",
+  "version": "1.0.0",
+  "description": "Chat microsevice with mongo db and rabbit mq",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoKocharyan/NPO_Chat.git"
+  },
+  "keywords": [
+    "chat",
+    "js",
+    "node",
+    "microservice",
+    "rabbitMQ"
+  ],
+  "author": "Roman Kocharyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoKocharyan/NPO_Chat/issues"
+  },
+  "homepage": "https://github.com/RoKocharyan/NPO_Chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
